@@ -1,4 +1,4 @@
-package omari.hamza.tictactoe.models;
+package omari.hamza.tictactoe.model;
 
 public class Player {
 

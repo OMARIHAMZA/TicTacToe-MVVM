@@ -1,4 +1,4 @@
-package omari.hamza.tictactoe.models;
+package omari.hamza.tictactoe.model;
 
 import android.util.Log;
 
@@ -120,5 +120,19 @@ public class Game {
         cells = null;
     }
 
+    public Cell[][] getCells() {
+        return cells;
+    }
 
+    public void setCells(Cell[][] cells) {
+        this.cells = cells;
+    }
+
+    public Player getCurrentPlayer() {
+        return currentPlayer;
+    }
+
+    public void setCurrentPlayer(Player currentPlayer) {
+        this.currentPlayer = currentPlayer;
+    }
 }
